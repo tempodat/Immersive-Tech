@@ -114,6 +114,8 @@ public class ImmersiveTech {
 		Config.manual_int.put("alternator_energyPerTick", ITConfig.Machines.alternator_RfPerTick);
 		
 		Config.manual_int.put("cokeOvenPreheater_consumption", ITConfig.Machines.cokeOvenPreheater_consumption);
+		Config.manual_int.put("cokeOvenPreheater_speedupModifier", ITConfig.Machines.cokeOvenPreheater_speedupModifier);
+		
 		
 	}
 
