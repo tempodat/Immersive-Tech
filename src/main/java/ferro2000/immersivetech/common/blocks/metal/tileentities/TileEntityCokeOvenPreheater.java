@@ -25,7 +25,7 @@ public class TileEntityCokeOvenPreheater extends TileEntityIEBase implements IIE
 	public boolean dummy = false;
 	public boolean active = false;
 	private int dummyNum = 0;
-	
+
 	public int doSpeedup()
 	{
 		
@@ -39,7 +39,7 @@ public class TileEntityCokeOvenPreheater extends TileEntityIEBase implements IIE
 			}
 			this.energyStorage.extractEnergy(consumed, false);
 			
-			return 1;
+			return ITConfig.Machines.cokeOvenPreheater_speedupModifier;
 		}
 		else if(active)
 		{

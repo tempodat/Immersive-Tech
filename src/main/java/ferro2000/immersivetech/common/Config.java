@@ -39,7 +39,9 @@ public class Config {
 			@Comment({"The Flux per tick the Coke Oven Preheater will consume to speed up the Coke Oven Advanced"})
 			public static int cokeOvenPreheater_consumption = 32;
 			
-			/*RECIPE*/
+			@Comment({"A modifier to apply to the speedup effect of each Coke Oven Preheater"})
+			public static int cokeOvenPreheater_speedupModifier = 1;
+
 			@Comment({"A modifier to apply to the time of every Solar Tower recipe"})
 			public static int solarTower_timeModifier = 1;
 			
