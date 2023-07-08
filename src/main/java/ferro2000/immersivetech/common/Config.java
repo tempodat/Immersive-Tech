@@ -42,9 +42,6 @@ public class Config {
 			@Comment({"A modifier to apply to the speedup effect of each Coke Oven Preheater"})
 			public static int cokeOvenPreheater_speedupModifier = 1;
 
-			@Comment({"A modifier to apply to the speedup effect of the Coke Oven Preheater"})
-			public static int cokeOvenPreheater_speedupModifier = 1;
-
 			@Comment({"A modifier to apply to the time of every Solar Tower recipe"})
 			public static int solarTower_timeModifier = 1;
 			
